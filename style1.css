@@ -38,3 +38,7 @@
 .navbar-brand {
   padding-left: 10px;
 }
+
+.badge.text-bg-secondary {
+  background-color: darkcyan;
+}
