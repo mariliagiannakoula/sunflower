@@ -70,13 +70,14 @@
   margin-left: 20px;
 }
 
-#rate-your-feeilings-carousel {
-  height: 400px;
+#rate-your-feelings-carousel {
+    height: 400px;
   max-width: 100%;
   object-fit: contain;
   margin: auto;
   border-radius: 20px;
 }
+
 
 .card3 {
   padding-left: 30px;
@@ -89,3 +90,10 @@
 .feeling-cards .card img {
   height: 200px;
 }
+
+.carousel.carousel-dark.slide.mt-3 {
+  padding-left: 400px;
+}
+
+
+
