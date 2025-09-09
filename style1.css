@@ -65,6 +65,8 @@
 
 #rate-your-feeilings-carousel img {
   height: 400px;
+  max-width: 100%;
+  object-fit: contain;
   margin: auto;
   border-radius: 20px;
 }
