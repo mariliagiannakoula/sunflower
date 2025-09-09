@@ -68,3 +68,11 @@
   margin: auto;
   border-radius: 20px;
 }
+
+.feeling-cards .card {
+  height: 100%;
+}
+
+.feeling-cards .card img {
+  height: 200px;
+}
