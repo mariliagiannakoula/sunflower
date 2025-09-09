@@ -29,16 +29,31 @@
   padding-left: 1vw !important;
   padding-right: 10vw !important;
   padding-left: 2%;
+  padding-bottom: 20px;
 }
 
 .card-group {
   padding-top: 30px;
 }
 
-.navbar-brand {
-  padding-left: 10px;
+.link-body-emphasis {
+  padding-left: 15px;
 }
 
-.badge.text-bg-secondary {
-  background-color: darkcyan;
+.card2 {
+  padding-left: 50px;
+}
+
+.col-sm-6.mb-3.mb-sm-0 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.card1 {
+  padding-left: 30px;
+}
+
+.navbar-brand {
+  padding-left: 10px;
 }
