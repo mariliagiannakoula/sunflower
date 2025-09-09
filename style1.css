@@ -65,3 +65,19 @@
 .collaborators {
   margin-left: 20px;
 }
+
+#rate-your-feeilings-carousel {
+  height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.feeling-cards .card {
+  height: 100%;
+}
+
+.feeling-cards .card img {
+  height: 200px;
+}
