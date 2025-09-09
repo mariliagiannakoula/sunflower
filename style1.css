@@ -57,3 +57,7 @@
 .navbar-brand {
   padding-left: 10px;
 }
+
+.class.heading {
+  background-color: rgba(13, 110, 253, 0.25);
+}
