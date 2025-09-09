@@ -30,11 +30,11 @@
   padding-left: 1vw !important;
   padding-right: 10vw !important;
   padding-left: 2%;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .card-group {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .link-body-emphasis {
@@ -67,4 +67,8 @@
   height: 400px;
   margin: auto;
   border-radius: 20px;
+}
+
+.card3 {
+  padding-left: 30px;
 }
