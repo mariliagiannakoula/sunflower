@@ -69,6 +69,8 @@
 
 .collaborators {
   margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
 }
 
 #rate-your-feeilings-carousel {
@@ -89,4 +91,16 @@
 
 .feeling-cards .card img {
   height: 200px;
+}
+.feedback {
+  align-items: center;
+  margin: 50px;
+}
+
+.submit {
+  padding-top: 30px;
+}
+
+.form-floating.mb-3 {
+  padding-top: 5px;
 }
