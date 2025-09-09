@@ -17,7 +17,7 @@
 }
 
 .carousel.carousel-dark.slide {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .accordion-title {
@@ -33,7 +33,7 @@
 }
 
 .card-group {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .link-body-emphasis {
@@ -58,6 +58,26 @@
   padding-left: 10px;
 }
 
-.class.heading {
+.heading {
   background-color: rgba(13, 110, 253, 0.25);
+}
+
+.accordion {
+  padding-top: 30px;
+}
+
+#rate-your-feeilings-carousel img {
+  height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.feeling-cards .card {
+  height: 100%;
+}
+
+.feeling-cards .card img {
+  height: 200px;
 }

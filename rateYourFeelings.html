@@ -61,19 +61,20 @@
     </div>
   </nav>
   <div class="container mt-5">
-    <label for="range-for-feelings" class="form-label">How do you feel today?</label>
+    <label for="range-for-feelings" class="form-label">How are you feeling today?</label>
     <input type="range" class="form-range" min="0" max="5" id="range-for-feelings" />
     <div class="d-flex gap-1 justify-content-center">
       <div>Level of happiness: </div>
-    <output for="range-for-feelings" id="rangeValue" aria-hidden="true"></output>
+      <output for="range-for-feelings" id="rangeValue" aria-hidden="true"></output>
     </div>
     <div class="text-end">
       <a class="icon-link" href="continue.html">
-  Continue
-  <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
-    <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-  </svg>
-</a>
+        Continue
+        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg>
+      </a>
     </div>
   </div>
 
@@ -89,6 +90,31 @@
       rangeOutput.textContent = this.value;
     });
   </script>
+
+
+  <div id="rate-your-feeilings-carousel" class="carousel carousel-dark slide mt-3"  data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="p2.jpg" class="d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="p3.jpg" class="d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="p4.jpg" class="d-block" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#rate-your-feeilings-carousel"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#rate-your-feeilings-carousel"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
