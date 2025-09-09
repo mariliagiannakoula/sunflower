@@ -15,3 +15,22 @@
   padding-right: 10vw !important;
   padding-left: 2%;
 }
+
+.carousel.carousel-dark.slide {
+  margin-bottom: 20px;
+}
+
+.accordion-title {
+  margin-bottom: 20px;
+  padding-left: 3vw;
+}
+
+.accordion {
+  padding-left: 1vw !important;
+  padding-right: 10vw !important;
+  padding-left: 2%;
+}
+
+.card-group {
+  padding-top: 30px;
+}
