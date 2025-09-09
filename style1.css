@@ -18,7 +18,7 @@
 }
 
 .carousel.carousel-dark.slide {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .accordion-title {
@@ -71,4 +71,12 @@
 
 .card3 {
   padding-left: 30px;
+}
+
+.feeling-cards .card {
+  height: 100%;
+}
+
+.feeling-cards.card.img {
+  height: 100%;
 }
