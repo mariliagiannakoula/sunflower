@@ -73,7 +73,7 @@
   padding-bottom: 20px;
 }
 
-#rate-your-feeilings-carousel {
+#rate-your-feelings-carousel {
   height: 400px;
   max-width: 100%;
   object-fit: contain;
@@ -103,4 +103,8 @@
 
 .form-floating.mb-3 {
   padding-top: 5px;
+}
+
+.carousel.carousel-dark.slide.mt-3 {
+  padding-left: 400px;
 }
