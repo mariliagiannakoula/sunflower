@@ -8,6 +8,7 @@
 
 .carousel-caption {
   background-color: rgb(255, 255, 153);
+  border-radius: 50px;
 }
 
 .carousel-item {
