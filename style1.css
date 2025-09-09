@@ -58,6 +58,10 @@
   padding-left: 10px;
 }
 
+.heading {
+  background-color: rgba(13, 110, 253, 0.25);
+}
+
 .accordion {
   padding-top: 30px;
 }
