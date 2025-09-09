@@ -58,11 +58,19 @@
   padding-left: 10px;
 }
 
+.heading {
+  background-color: rgba(13, 110, 253, 0.25);
+}
+
 .accordion {
   padding-top: 30px;
 }
 
-#rate-your-feeilings-carousel img {
+.collaborators {
+  margin-left: 20px;
+}
+
+#rate-your-feeilings-carousel {
   height: 400px;
   max-width: 100%;
   object-fit: contain;
