@@ -62,3 +62,9 @@
 .accordion {
   padding-top: 30px;
 }
+
+#rate-your-feeilings-carousel img {
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
