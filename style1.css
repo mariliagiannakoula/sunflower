@@ -9,3 +9,9 @@
 .carousel-caption {
   background-color: rgb(255, 255, 153);
 }
+
+.carousel-item {
+  padding-left: 10vw !important;
+  padding-right: 10vw !important;
+  padding-left: 2%;
+}
