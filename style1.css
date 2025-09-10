@@ -8,6 +8,7 @@
 
 .carousel-caption {
   background-color: rgb(255, 255, 153);
+  border-radius: 50px;
 }
 
 .carousel-item {
@@ -29,11 +30,11 @@
   padding-left: 1vw !important;
   padding-right: 10vw !important;
   padding-left: 2%;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .card-group {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .link-body-emphasis {
@@ -66,16 +67,22 @@
   padding-top: 30px;
 }
 
-.accordion {
-  padding-top: 30px;
+.collaborators {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
 }
 
-#rate-your-feeilings-carousel img {
+#rate-your-feelings-carousel {
   height: 400px;
   max-width: 100%;
   object-fit: contain;
   margin: auto;
   border-radius: 20px;
+}
+
+.card3 {
+  padding-left: 30px;
 }
 
 .feeling-cards .card {
@@ -84,4 +91,29 @@
 
 .feeling-cards .card img {
   height: 200px;
+}
+.feedback {
+  align-items: center;
+  margin: 50px;
+}
+
+.submit {
+  padding-top: 30px;
+}
+
+.form-floating.mb-3 {
+  padding-top: 5px;
+}
+
+.carousel.carousel-dark.slide.mt-3 {
+  padding-left: 150px;
+}
+
+.d-block {
+  border-radius: 20px;
+}
+.d-flex {
+  padding-top: 20px;
+  padding: left 20px;
+  padding-right: 20px;
 }
